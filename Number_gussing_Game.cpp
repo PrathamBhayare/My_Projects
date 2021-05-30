@@ -6,10 +6,10 @@
 int main()
 {
 	int num,guess,nguesses=1;
-	srand(time(0));
+	srand(time(0));         // use to generate a random number
 	num = rand()%100+1;
 	
-//	printf("the number is %d",num);
+//	printf("the number is %d",num); // here you can see the random number
 	
 	do{
 		printf("guess the number between 1 to 100\n" );
